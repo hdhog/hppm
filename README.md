@@ -20,7 +20,7 @@ Syntax:
           all filtered data then will translated to stdout
 Example:
 
-   hppm 127.0.0.1:8888 1.2.3.4:80
+$ hppm 127.0.0.1:8888 1.2.3.4:80
    
-   hppm -l log.txt -r [0-9a-f]{32} 127.0.0.1:1234 95.34.12.33:80
+$ hppm -l log.txt -r [0-9a-f]{32} 127.0.0.1:1234 95.34.12.33:80
 
