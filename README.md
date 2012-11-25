@@ -12,7 +12,7 @@ $ g++ hppm.cpp -levent -lpcre -o hppm
 Usage
 ------------
 Syntax:
-   hppm [-l filename] [-r regexp] <listen-on-addr> <connect-to-addr>
+   hppm [-l filename] [-r regexp] listen-on-addr connect-to-addr
    
      -l - enables logging of all transit packets to file <filename>
      
